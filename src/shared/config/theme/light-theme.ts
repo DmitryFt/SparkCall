@@ -1,0 +1,87 @@
+import { colors } from './colors'
+import { fonts, sizes, typography } from './typography'
+
+const lightColors = {
+	gray30: '#E5E6E9',
+	gray40: '#CBCDD3',
+	gray50: '#B2B7C6',
+	gray60: '#7E8392',
+	gray90: '#090A0B',
+	bg0: '#FFFFFF',
+	bg10: '#FAFAFA',
+	bg20: '#F8F8F8',
+	bg50: '#BEBEBE',
+	bg60: '#999999',
+	bg70: '#717273',
+}
+
+export const lightTheme = {
+	fonts,
+	sizes,
+	typography,
+	static: {
+		light: colors.light,
+		dark: colors.dark,
+		opacity: colors.transparent,
+	},
+	text: {
+		main: lightColors.gray90,
+		secondary: lightColors.gray60,
+		muted: lightColors.gray50,
+		white: lightColors.bg0,
+	},
+	fill: {
+		box: lightColors.bg0,
+		box_gray: lightColors.bg20,
+		page: colors.brand10,
+		statusBar: lightColors.bg0,
+	},
+	button: {
+		primary: colors.brand40,
+		secondary: lightColors.bg60,
+		primary_pressed: colors.brand50,
+		secondary_pressed: lightColors.bg70,
+	},
+	input: {
+		label: lightColors.gray60,
+		labelInvalid: colors.red50,
+		borderFocused: colors.brand40,
+		borderDisabled: lightColors.gray40,
+		borderInvalid: colors.red50,
+		borderDefault: colors.brand30,
+		divider: lightColors.gray50,
+		text: lightColors.gray90,
+		placeholder: lightColors.gray60,
+		background: colors.brand20,
+	},
+	checkbox: {
+		checkedBg: lightColors.gray90,
+		checkedBorder: lightColors.gray90,
+		uncheckedBg: lightColors.bg10,
+		uncheckedBorder: lightColors.gray40,
+		icon: colors.light,
+		focusRing: 'rgba(9, 10, 11, 0.25)',
+		focusBorder: 'rgba(9, 10, 11, 0.08)',
+	},
+	radio: {
+		uncheckedBorder: lightColors.gray40,
+		focusBorder: lightColors.gray90,
+		focusRing: 'rgba(9, 10, 11, 0.25)',
+		focusInnerRing: 'rgba(9, 10, 11, 0.08)',
+		selectedBorder: lightColors.gray90,
+		selectedBg: lightColors.gray90,
+		disabledSelectedBorder: lightColors.bg60,
+		disabledSelectedBg: lightColors.bg50,
+		dot: colors.light,
+	},
+	switch: {
+		trackOn: colors.brand40,
+		trackOnBorder: lightColors.gray90,
+		trackOff: lightColors.bg10,
+		trackOffBorder: lightColors.gray30,
+		thumbOn: colors.light,
+		thumbOff: lightColors.gray30,
+		disabledOverlay: lightColors.bg10,
+		icon: lightColors.gray90,
+	},
+}

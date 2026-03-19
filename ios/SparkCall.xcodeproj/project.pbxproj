@@ -280,7 +280,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 8K4L5X9597;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = SparkCall/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "Spark Call";
@@ -316,7 +316,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 8K4L5X9597;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = SparkCall/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "Spark Call";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.video";

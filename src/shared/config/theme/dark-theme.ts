@@ -1,0 +1,87 @@
+import { colors } from './colors'
+import { fonts, sizes, typography } from './typography'
+
+const darkColors = {
+	gray30: '#545863',
+	gray40: '#7E8392',
+	gray50: '#B2B7C6',
+	gray60: '#CBCDD3',
+	gray90: '#F3F3F3',
+	bg0: '#0A0A0A',
+	bg10: '#060606',
+	bg20: '#151617',
+	bg30: '#161718',
+	bg40: '#48494B',
+	bg50: '#6C6D71',
+}
+
+export const darkTheme = {
+	fonts,
+	sizes,
+	typography,
+	static: {
+		light: colors.light,
+		dark: colors.dark,
+		opacity: colors.transparent,
+	},
+	text: {
+		main: darkColors.gray90,
+		secondary: darkColors.gray60,
+		muted: darkColors.gray40,
+		white: darkColors.bg0,
+	},
+	fill: {
+		box: darkColors.bg40,
+		box_gray: colors.brand20,
+		page: darkColors.bg30,
+		statusBar: 'black',
+	},
+	button: {
+		primary: colors.brand40,
+		secondary: darkColors.bg10,
+		primary_pressed: colors.brand50,
+		secondary_pressed: darkColors.bg40,
+	},
+	input: {
+		label: darkColors.gray60,
+		labelInvalid: colors.red50,
+		borderFocused: colors.brand40,
+		borderDisabled: darkColors.gray40,
+		borderInvalid: colors.red50,
+		borderDefault: 'rgba(243, 243, 243, 0.28)',
+		divider: darkColors.gray40,
+		text: darkColors.gray90,
+		placeholder: darkColors.gray50,
+		background: darkColors.bg40,
+	},
+	checkbox: {
+		checkedBg: colors.brand40,
+		checkedBorder: colors.brand40,
+		uncheckedBg: darkColors.bg30,
+		uncheckedBorder: darkColors.gray40,
+		icon: colors.light,
+		focusRing: 'rgba(243, 243, 243, 0.25)',
+		focusBorder: 'rgba(243, 243, 243, 0.1)',
+	},
+	radio: {
+		uncheckedBorder: darkColors.gray40,
+		focusBorder: darkColors.gray90,
+		focusRing: 'rgba(243, 243, 243, 0.25)',
+		focusInnerRing: 'rgba(243, 243, 243, 0.1)',
+		selectedBorder: colors.brand40,
+		selectedBg: colors.brand40,
+		disabledSelectedBorder: darkColors.bg50,
+		disabledSelectedBg: darkColors.bg40,
+		dot: colors.light,
+	},
+	switch: {
+		trackOn: colors.brand40,
+		trackOnBorder: colors.brand40,
+		trackOff: darkColors.bg30,
+		trackOffBorder: darkColors.gray30,
+		thumbOn: darkColors.gray90,
+		thumbOff: darkColors.gray50,
+		disabledOverlay: darkColors.bg30,
+		icon: darkColors.bg0,
+	},
+}
