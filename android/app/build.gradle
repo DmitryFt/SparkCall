@@ -105,6 +105,12 @@ android {
             proguardFiles getDefaultProguardFile("proguard-android.txt"), "proguard-rules.pro"
         }
     }
+
+	// react-native-webrtc
+	compileOptions {
+		sourceCompatibility JavaVersion.VERSION_1_8
+      	targetCompatibility JavaVersion.VERSION_11
+	}
 }
 
 dependencies {
